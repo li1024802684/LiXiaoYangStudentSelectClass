@@ -47,6 +47,7 @@
 						{"menuid":"7","icon":"","menuname":"选课信息管理",
 							"menus":[
 									{"menuid":"71","menuname":"选课列表","icon":"icon-book-open","url":"SelectedCourseServlet?method=toSelectedCourseListView"},
+									{"menuid":"71","menuname":"推荐选课","icon":"icon-book-open","url":"ReSelectedCourseServlet?method=toReSelectedCourseListView"},
 								]
 						},
 						{"menuid":"8","icon":"","menuname":"考勤信息管理",
@@ -94,7 +95,7 @@
 	</div>
 	<div region="south" split="true"
 		style="height: 30px; background: #D2E0F2;">
-		<div class="footer">Copyright &copy; By 【猿来入此】</div>
+		<div class="footer">Copyright &copy; By 【李晓阳】</div>
 	</div>
 	<div region="west" hide="true" split="true" title="导航菜单"
 		style="width: 180px;" id="west">
