@@ -155,22 +155,7 @@
             }
 	    });
 	  	
-	  	//设置添加窗口
-	    $("#addDialog").dialog({
-	    	title: "添加选课信息",
-	    	width: 450,
-	    	height: 200,
-	    	iconCls: "icon-add",
-	    	modal: true,
-	    	collapsible: false,
-	    	minimizable: false,
-	    	maximizable: false,
-	    	draggable: true,
-	    	closed: true,
-	    	buttons: [
-	    		{
-					text:'添加',
-					plain: true,
+	  	
 					iconCls:'icon-book-add',
 					handler:function(){
 						var validate = $("#addForm").form("validate");
