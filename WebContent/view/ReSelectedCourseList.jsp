@@ -268,26 +268,7 @@
 	</div>
 
 	<!-- 添加数据窗口 -->
-	<div id="addDialog" style="padding: 10px">
-		<form id="addForm" method="post">
-			<table cellpadding="8">
-				<tr>
-					<td style="width: 40px">学生:</td>
-					<td colspan="3"><input id="add_studentList"
-						style="width: 200px; height: 30px;" class="easyui-textbox"
-						name="studentid" /></td>
-					<td style="width: 80px"></td>
-				</tr>
-				<tr>
-					<td style="width: 40px">课程:</td>
-					<td colspan="3"><input id="add_courseList"
-						style="width: 200px; height: 30px;" class="easyui-textbox"
-						name="courseid" /></td>
-					<td style="width: 80px"></td>
-				</tr>
-			</table>
-		</form>
-	</div>
+
 
 </body>
 </html>
